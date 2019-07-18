@@ -1,0 +1,32 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+.subhead {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+body {
+    background-color: rgb(46, 76, 172);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contactList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contact {
+    background-color: white;
+    border-style: outset;
+    max-width: 12em;
+    min-width: 12em;
+    margin: 1em;
+    padding: 1em;
+    word-wrap: break-word;
+}
